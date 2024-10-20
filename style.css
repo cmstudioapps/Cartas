@@ -1,0 +1,118 @@
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #1e1e1e;
+            color: #fff;
+        }
+
+        .container {
+            max-width: 768px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+        }
+
+        .header img {
+            border-radius: 15px;
+            width: 80px;
+            height: 80px;
+            margin-right: 20px;
+        }
+
+        .title {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .info {
+            display: flex;
+            align-items: center;
+            margin-top: 10px;
+        }
+
+        .tag {
+            background-color: #ffa500;
+            padding: 3px 6px;
+            border-radius: 5px;
+            margin-right: 10px;
+            font-size: 14px;
+            
+        }
+
+        .info .age {
+            font-size: 14px;
+        }
+
+        .buttons {
+            margin-top: 20px;
+            display: flex;
+            gap: 10px;
+        }
+
+        .buttons button, a {
+            background-color: #e50914;
+            color: #fff;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .buttons button:hover {
+            background-color: #b81d1d;
+        }
+
+        .buttons  button.secondary {
+            background-color: #333;
+        }
+
+        .description {
+            margin-top: 20px;
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        .screenshot {
+            margin-top: 20px;
+            border-radius: 10px;
+            height: 50vh;
+        }
+.age {
+  
+  background-color: #00FF32;
+  color: black;
+  padding: 0.5vh;
+  
+}
+        footer {
+            display: flex;
+            justify-content: space-around;
+            background-color: #333;
+            padding: 15px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        footer img {
+            width: 30px;
+        }
+        #print {
+          
+          display: flex;
+          overflow: auto;
+          
+        }
+        details {
+          
+          margin-top: 5vh;
+          background-color: white;
+          padding: 2vh;
+          color: black;
+          
+        }
